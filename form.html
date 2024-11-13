@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio form</title>
+    <link rel="stylesheet" href="styles/form.css">
+<body>
+    <h1>Self Assessment for for developers</h1>
+    <form class="assessment-form">
+        <label for="username">username</label> <br>
+        <input type="text"
+        placeholder="enter your name"
+        id="username"
+        > <br>
+        
+        <label for="userage">age</label> <br>
+        <input type="date"
+        id="userage"
+        > <br>
+
+        <label for="useremail">email</label> <br>
+        <input type="email"
+        placeholder="youremail@example.com"
+        id="useremail"
+        > <br>
+
+        <label for="male">male</label> 
+        <input type="radio"
+        name="genderinput"
+        id="male">
+
+        <label for="female">female</label>
+        <input type="radio"
+        name="genderinput"
+        id="female"
+        > 
+        <label for="others">others</label>
+        <input type="radio"
+        name="genderinput"
+        id="others" 
+        >  
+        <label for="usernumber">phone number</label> <br>
+        <input type="number"
+        placeholder="Tel......."
+        id="usernumber"
+        > <br>
+
+        <label for="userstack">what is your stack</label> <br>
+        <select id="userstack">
+            <option value="lamp">Linux Apache MySQL PHP</option>
+            <option value="mean">MongoDb Express Angular Node js</option>
+            <option value="mern">MongoDb Express React Node js</option>
+            <option value="jam">Javascript APIs Markup</option>
+            <option value="ffs">Flutter + Firebase Stack</option>
+        </select> <br>
+
+        <label for="selftest">rate your self</label> <br>
+        <input type="range"
+        id="selftest"
+        > <br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

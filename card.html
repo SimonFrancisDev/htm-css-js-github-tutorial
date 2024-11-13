@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Card</title>
+
+    <style>
+        .container {
+            border: 1px solid black;
+            width: 300px;
+            margin: auto;
+            margin-top: 30px;
+            background-color: black;
+            border-radius: 20px;
+            height: 350px;
+            border-left: inset;
+            border-left-width: 3px;
+            border-left-color: gold;
+            border-right: inset;
+            border-right-width: 3px;
+            border-right-color: gold;
+        }
+
+        .container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(18, 13, 2, 0.3);
+            z-index: 1
+        }
+
+        .team-logo {
+            width: 40px;
+            margin-left: 40%;
+            margin-top: 3%;
+            border-radius: 20px;
+        }
+
+        .player-details-container {
+
+        }
+
+        .player-image {
+            width: 150px;
+            margin-left: 25%;
+            margin-top: 3%;
+            border-radius: 10px;
+            display: block;
+            margin-bottom: 5%;
+        }
+
+        .p-country {
+            color: goldenrod;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: smaller;
+            display: inline;
+            margin-left: 10%;
+            margin-bottom: 5%;
+        }
+
+        .p-club {
+            color: goldenrod;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: smaller;
+            display: inline;
+            margin-left: 15%;
+            margin-bottom: 5%;
+        }
+
+        .p-position {
+            color: goldenrod;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: smaller;
+            display: inline;
+            margin-left: 10%;
+            margin-bottom: 5%;
+        }
+
+        .p-league {
+            color: goldenrod;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: smaller;
+            display: inline;
+            margin-left: 10%;
+            margin-bottom: 5%;
+        }
+
+        .p-general-rating {
+            color: goldenrod;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: smaller;
+            display: inline;
+            margin-left: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="team-logo" src="assets/man city.png" alt="team-logo">
+        <div class="player-details-container">
+            <img class="player-image" src="assets/haaland.jpg" alt="player image">
+            <p class="p-country">Country: Norway</p>
+            <p class="p-club">Club: Mancity</p> <br>
+            <p class="p-position">Position: Central Forward</p> <br>
+            <p class="p-league">League: English Football Legue</p> <br>
+            <p class="p-general-rating">Rating: 97</p>
+        </div>
+    </div>
+    
+</body>
+</html>

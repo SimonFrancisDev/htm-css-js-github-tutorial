@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effects & Transitions</title>
+
+    <style>
+        .before-btn {
+            background-color: navy;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+            text-align: center;
+            padding: 7px;
+        }
+
+        .after-btn {
+            width: 100px;
+            background-color: gray;
+            border: none;
+            border-radius: 3px;
+            padding: 7px;
+            text-align: center;
+            transition: all 0.9s;
+        }
+
+        .after-btn:hover {
+            background-color: navy;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+            text-align: center;
+            padding: 7px; 
+        }
+
+        .before-btn:hover {
+            width: 100px;
+            background-color: gray;
+            border: none;
+            border-radius: 3px;
+            padding: 7px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <button class="before-btn">Before</button>
+    <button class="after-btn">After</button>
+</body>
+</html>
